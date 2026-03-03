@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'blog',
+    'rest_framework', # to add the rest_framework that is installed
+    'blog', # to add blog page
+    'django_filters' # to enable django filter lib
 ]
 
 MIDDLEWARE = [
