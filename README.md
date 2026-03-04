@@ -1,4 +1,8 @@
-###Teck Stack Django Django REST Framework SQLite (default database) Django-filter
+###Teck Stack 
+Django 
+Django REST Framework 
+SQLite (default database) 
+Django-filter
 
 git clone https://github.com/niranjanl08/Django_Blog_API.git cd blogproject
 INSTALL Requirements python3 -m venv venv source venv/bin/activate pip install -r requirements.txt
