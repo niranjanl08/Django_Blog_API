@@ -1,4 +1,4 @@
-##**Teck Stack**
+###**Teck Stack**
     Django
     Django REST Framework
     SQLite (default database)
@@ -30,14 +30,14 @@ BY AUTHOR : /api/posts/?author="NAME"
 search : /api/posts/?search=keyword
 ordering : /api/posts/?ordering=-created_at --to do desc :/api/posts/?ordering=-created_at
 
-
+---
 **Sample JSON POST:**
 {
     "title_blog": "My Blog",
     "content_of_blog": "This is the json template",
     "author_of_blog": "team"
 }
-
+---
 **Sample JSON Comment:**
 {
     "name_of_person": "VishnuNerengen",
@@ -45,3 +45,4 @@ ordering : /api/posts/?ordering=-created_at --to do desc :/api/posts/?ordering=-
     "comment": "Great blog!",
     "post_name": 1
 }
+---
